@@ -2029,7 +2029,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # Replace spaces with hyphens for better deep linking compatibility
         safe_query_for_link = user_text.replace(" ", "-") 
         extra_url = f"https://t.me/filestreamkr1bot?start=getfile-{safe_query_for_link}"
-        keyboard.append([InlineKeyboardButton("📂 Search in File Stream Bot", url=extra_url)])
+        keyboard.append([InlineKeyboardButton("📂 Search in Movie Bot", url=extra_url)])
         # ----------------------------------------------
 
         reply_markup = InlineKeyboardMarkup(keyboard)
