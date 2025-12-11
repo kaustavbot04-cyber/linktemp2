@@ -1817,9 +1817,9 @@ async def perform_google_search(query_text, update, context):
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     await update.message.reply_html(
-        f"Hi {user.mention_html()}! I am Kaustav Ray's Scraper Bot.\n\n"
+        f"Hi {user.mention_html()}! I am Kaustav Ray's Movie and bypass Bot.\n\n"
         "<b>How to use:</b>\n"
-        "1. <b>Send a Link:</b> I will scrape and bypass it (Max 6/day).\n"
+        "1. <b>Send a Link:</b> I will bypass it .\n"
         "2. <b>Send a Movie Name:</b> I will search for it.\n"
         "3. <b>Click Search Results:</b> Downloads from search are <b>Unlimited!</b>\n"
         "4. <b>/p Movie Name:</b> I will send the poster.\n"
